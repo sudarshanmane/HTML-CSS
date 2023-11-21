@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+
+        width: 70vw;
+        height: 80vh;
+      }
+
+      .container div {
+        background: green;
+        border: 1px solid black;
+      }
+      #two {
+        grid-column-start: 5;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background: #000;
+      }
+      #five {
+        grid-column: 3 / 4;
+        background: yellow;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div></div>
+      <div id="two"></div>
+      <div></div>
+      <div></div>
+      <div id="five"></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </body>
+</html>
